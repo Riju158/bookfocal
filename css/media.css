@@ -1,0 +1,618 @@
+@media screen and (max-width:1199px) {
+
+    /* ---header--- */
+    .header_left {
+        gap: 150px;
+    }
+
+    .navlist {
+        gap: 35px;
+    }
+
+    /* ---banner-- */
+    .banner h1 {
+        color: white;
+        width: 50%;
+        font-size: 40px;
+
+    }
+
+    /* -----about---- */
+
+    .about {
+        margin-top: 50px;
+    }
+
+
+    .about .container {
+        gap: 70px;
+    }
+
+    .about_left {
+        width: 50%;
+    }
+
+    .about_left h4 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .about_right {
+        width: 50%;
+    }
+
+    /* ------portfilo----- */
+    .portolio {
+        margin-top: 50px;
+    }
+
+
+    /* -----------------packagess--------------------- */
+
+    .packageBox {
+        width: 364px;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .content {
+        text-align: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+
+
+}
+
+@media screen and (max-width:1024px) {
+    .header_right .btn {
+        padding: 8px 20px;
+    }
+
+    /* ---header--- */
+    .header_left {
+        gap: 80px;
+    }
+
+    .navlist {
+        gap: 35px;
+    }
+
+
+    /* -------------------blogs------------------- */
+
+    .blog_text {
+        padding: 20px;
+    }
+
+    .blog_text h4 {
+        font-size: 18px;
+    }
+
+    .blog_text p {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    
+
+
+    /* -------------footer------------- */
+
+
+footer .main {
+    padding:50px 0;
+    color: #ffff;
+    flex-direction: column;
+}
+
+.footer_box {
+    padding-top:20px;
+    height: auto;
+}
+
+.footer_box p {
+    margin-bottom: 30px;
+}
+
+.footer_box a>i{
+    font-size:22px;
+    padding-right: 20px;
+}
+
+.footer_top {
+    margin-bottom:25px;
+}
+
+footer .border_right {
+    padding-right: 0px;
+    border:none;
+}
+
+.left_padding {
+    padding-left:0px;
+
+}
+
+}
+
+
+@media screen and (max-width:991px) {
+    .btn {
+        padding: 10px 20px;
+    }
+
+    .fsize {
+        font-size: 28px;
+    }
+
+    .section_header {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+
+    /* ---header--- */
+    .logoImg {
+        width: 120px;
+    }
+
+    .navItmes {
+        margin-bottom: 15px;
+    }
+
+    .navlist {
+        display: none;
+        gap: 25px;
+        transition: all 0.5s;
+    }
+
+    .show {
+        display: block;
+
+    }
+
+    .toggle_icon {
+        display: block;
+        font-size: 23px !important;
+        background: none;
+        padding: 0 !important;
+    }
+
+    header .main {
+        height: auto;
+        padding: 15px 0;
+        align-items: start;
+    }
+
+    .header_left {
+        flex-direction: column;
+        align-items: normal;
+        gap: 8px;
+    }
+
+    .logo_part {
+        align-items: center;
+        flex-direction: row-reverse;
+        gap: 20px;
+    }
+
+    .navlist {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .header_right {
+        align-items: normal;
+        gap: 20px;
+    }
+
+    /* --banner--- */
+
+    .banner h1 {
+        font-size: 35px;
+    }
+
+
+    /* -----about---- */
+
+
+    .about .container {
+        gap: 30px;
+    }
+
+    .about_left h4 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+
+    .about_left {
+        width: 70%;
+
+    }
+
+
+    .about_left p {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+
+    /* -----------------packagess--------------------- */
+
+    /* .packageBox {
+        width: 364px;
+        height: auto;
+        padding: 40px 20px;
+    } */
+
+    .name {
+        font-size: 16px;
+    }
+
+    .content .price {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+
+    .content p {
+        font-size: 13px;
+    }
+
+    /* -------------------testimonials----------------- */
+    .testimonials .container {
+        gap: 50px;
+    }
+
+    .testimonials .box {
+        width: 50%;
+        height: auto;
+        border: 1px solid black;
+        padding: 30px;
+    }
+
+    .velitname {
+        font-size: 22px;
+    }
+
+    .velitbox {
+        width: 30%;
+    }
+
+    .boxcontant {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .boxcontant p {
+        font-size: 16px;
+    }
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width:767px) {
+    .btn {
+        padding: 7px 12px;
+        font-size: 12px;
+    }
+
+    .fsize {
+        font-size: 22px;
+    }
+
+
+    /* section top */
+    .section_header {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+
+    /* --banner--- */
+    .banner h1 {
+        width: 60%;
+        font-size: 30px;
+    }
+
+    /* -----about---- */
+    .about {
+        margin-top: 30px;
+    }
+
+    .about .container {
+        gap: 20px;
+    }
+
+    .about_left h4 {
+        font-size: 12px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+
+    .about_left p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .about_right {
+        width: 60%;
+    }
+
+
+    /* -----------------packagess--------------------- */
+    .package .container {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .packageBox {
+        width: 280px;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .name {
+        font-size: 14px;
+    }
+
+    .content .price {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .content p {
+        font-size: 12px;
+    }
+
+
+    /* -------------------testimonials----------------- */
+    .testimonials .container {
+        gap: 30px;
+    }
+
+    .testimonials .box {
+        width: 50%;
+        height: auto;
+        border: 1px solid black;
+        padding: 20px;
+    }
+
+    .velitname {
+        font-size: 18px;
+    }
+
+
+    .boxcontant p {
+        font-size: 13px;
+    }
+
+
+    /* -------------------blogs------------------- */
+
+.blog_text{
+    padding:12px;
+ }
+ .blog_text h4{
+   font-size:15px ;
+ }
+ 
+ .blog_text p{
+     font-size:12px;
+     margin:10px 0;
+ }
+ 
+
+
+/* ----------footer------------ */
+
+.footer_box p {
+font-size: 13px;
+    margin-bottom:20px;
+}
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width:575px) {
+    .btn {
+        padding: 7px 12px;
+        font-size: 10px;
+    }
+
+    .fsize {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .header_right .btn {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    /* section top */
+    .section_header {
+        margin-bottom: 20px;
+    }
+
+
+    /* --banner--- */
+    .banner h1 {
+        width: 70%;
+        font-size: 20px;
+    }
+
+
+    /* --about-- */
+    .about {
+        margin-top: 20px;
+    }
+
+    .about .container {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .about_left {
+        width: 100%;
+    }
+
+
+    .about_right {
+        width: 70%;
+    }
+
+
+    /* -----------------packagess--------------------- */
+
+    .packageBox {
+        width: 400px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .content {
+        gap: 10px;
+    }
+
+    .name {
+        font-size: 14px;
+    }
+
+    .content .price {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .content p {
+        font-size: 12px;
+    }
+
+
+    /* -------------------testimonials----------------- */
+    .testimonials .container {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .testimonials .box {
+        width: 80%;
+        height: auto;
+        border: 1px solid black;
+        padding: 15px;
+    }
+
+    .velitname {
+        font-size: 15px;
+    }
+
+    .velitbox {
+        width: 20%;
+    }
+
+
+    .boxcontant p {
+        font-size: 13px;
+    }
+
+
+
+
+    /* -------------------blogs------------------- */
+    .blog_box{
+        width:30%;
+    }
+    
+    .blog_text{
+        padding:5px;
+     }
+     .blog_text h4{
+       font-size:10px ;
+     }
+     
+     .blog_text p{
+         font-size:10px;
+         margin:8px 0;
+     }
+     
+    
+
+
+}
+
+
+
+@media screen and (max-width:320px) {
+
+    /* --banner--- */
+    .banner h1 {
+        font-size: 12px;
+    }
+
+    /* --about-- */
+    .about .container {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .about_left {
+        width: 100%;
+    }
+
+
+    .about_right {
+        width: 80%;
+    }
+
+
+     /* -------------------blogs------------------- */
+     .blog_box{
+        width:80%;
+    }
+
+    .blog_container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .blog_text{
+        padding:8px;
+     }
+
+     .blog_text h4{
+       font-size:12px ;
+     }
+     
+     .blog_text p{
+         font-size:12px;
+         margin:8px 0;
+     }
+     
+
+
+
+
+}
